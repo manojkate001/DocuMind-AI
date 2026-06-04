@@ -11,8 +11,7 @@ collection = client.get_or_create_collection(
 )
 
 model = SentenceTransformer(
-    "all-MiniLM-L6-v2",
-    local_files_only=True
+    "all-MiniLM-L6-v2"
 )
 
 def store_chunks(chunks):
